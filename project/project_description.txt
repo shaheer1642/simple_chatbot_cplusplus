@@ -1,0 +1,11 @@
+The is a C++ based currency conversion project that uses some basic language concepts to deliver an easy to use program.
+Some main concepts used in the program are listed below:
+    Arrays,
+    JSON data structure: JSON is an object or array of objects. This data structure helps to store all currency rates in a file and makes it easy to access the values to perform conversions,
+    For/while loops,
+    Functions,
+    Recursive functions: Used to recursively get inputs from the user until a condition is met and the program can continue processing the next statement,
+    Objects and Classes,
+    IO Manipulator functions: Used for formatting the console screen into an easy to read format i.e. setw() function,
+    File handling: Used to store and access data in .txt and .json files,
+    Try/catch: For error handling
