@@ -42,6 +42,31 @@ string replaceSpecialChars(string str) {
     str = regex_replace(str, regex("\\'"), "");
     return str;
 }
+int calcSimilarity(string question, string input) {
+    // Used to split string around spaces.
+    istringstream quesStream(question);
+    istringstream inputStream(input);
+ 
+    string word1; // for storing each word
+    string word2; // for storing each word
+ 
+    // Traverse through all words
+    // while loop till we get
+    // strings to store in string word
+    int matches = 0;
+    int total = 0;
+    while (inputStream >> word1)
+    {
+        while (quesStream >> word2) {
+            if (word1 == word2) {
+                matches++;
+                break;
+            }
+        }
+        total++;
+    }
+    return (matches/total)*100;
+}
 
 // the Currency class that contains data about each currency and some methods
 class Bot {
@@ -75,9 +100,10 @@ class Bot {
             json answers;
             for (int i=0; i<this->botData.size(); i++) {
                 string question = replaceSpecialChars(strLower(this->botData[i]["question"]));
-                if (question == input)
+                if (calcSimilarity(question,input) > 50) 
                     answers.push_back(this->name + ": " + to_string(this->botData[i]["answer"]));
             }
+            cout<<"hits: "<<answers.size()<<endl;
             if (answers.size() > 0) {
                 srand(time(NULL));
                 return answers[rand() % answers.size()];
