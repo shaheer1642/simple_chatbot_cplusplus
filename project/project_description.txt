@@ -1,11 +1,13 @@
-The is a C++ based currency conversion project that uses some basic language concepts to deliver an easy to use program.
+The is a C++ based project that uses some basic language concepts to deliver a simple chat bot program for general question/answers.
 Some main concepts used in the program are listed below:
     Arrays,
+    Strings,
     JSON data structure: JSON is an object or array of objects. This data structure helps to store all currency rates in a file and makes it easy to access the values to perform conversions,
     For/while loops,
+    Conditional statements,
     Functions,
-    Recursive functions: Used to recursively get inputs from the user until a condition is met and the program can continue processing the next statement,
+    Recursive functions: Used to recursively get input from the user until a condition is met and the program can continue processing the next statement,
     Objects and Classes,
-    IO Manipulator functions: Used for formatting the console screen into an easy to read format i.e. setw() function,
-    File handling: Used to store and access data in .txt and .json files,
-    Try/catch: For error handling
+    File handling: Used to store and access data in .json file,
+    Pointers,
+    Regular expressions: The regex library functions are used to search and replace substrings
