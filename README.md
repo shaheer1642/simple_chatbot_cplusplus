@@ -1,16 +1,16 @@
 # About
 The is a C++ based project that uses some basic language concepts to deliver a simple chat bot program for general question/answers.
 Some main concepts used in the program are listed below:
-- Arrays,
-- Strings,
+- Arrays
+- Strings
 - JSON data structure
-- For/while loops,
-- Conditional statements,
-- Functions,
-- Recursive functions: Used to recursively get input from the user until a condition is met and the program can continue processing the next statement,
-- Objects and Classes,
-- File handling: Used to store and access data in .json file,
-- Pointers,
+- For/while loops
+- Conditional statements
+- Functions
+- Recursive functions: Used to recursively get input from the user until a condition is met and the program can continue processing the next statement
+- Objects and Classes
+- File handling: Used to store and access data in .json file
+- Pointers
 - Regular expressions: The regex library functions are used to search and replace substrings
 
 # Technologies
