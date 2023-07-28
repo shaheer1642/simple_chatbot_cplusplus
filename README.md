@@ -20,7 +20,8 @@ Some main concepts used in the program are listed below:
 ![image](https://github.com/shaheer1642/simple_chatbot_cplusplus/assets/90972275/d9a87603-60e3-4132-a8e1-4461cb07bd6c)
 
 # Running the code
-- In dev C++, navigate to Tools > Compiler Options > General
+- Open main.cpp in dev C++
+- Navigate to Tools > Compiler Options > General
 -  Check the box "Add the following commands when calling the compiler"
 - Type in the following command inside the text box: `-std=c++11`
 - Press ok
