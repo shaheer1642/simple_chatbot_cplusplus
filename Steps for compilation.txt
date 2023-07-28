@@ -1,0 +1,6 @@
+1) In dev C++, navigate to Tools > Compiler Options > General
+2) Check the box "Add the following commands when calling the compiler"
+3) Type in the following command inside the text box
+	-std=c++11
+4) Press ok
+5) Now press F11 to compile and run
