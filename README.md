@@ -21,8 +21,7 @@ Some main concepts used in the program are listed below:
 
 # Running the code
 - In dev C++, navigate to Tools > Compiler Options > General
-- - Check the box "Add the following commands when calling the compiler"
-- Type in the following command inside the text box
-	-std=c++11
+-  Check the box "Add the following commands when calling the compiler"
+- Type in the following command inside the text box: `-std=c++11`
 - Press ok
 - Now press F11 to compile and run
