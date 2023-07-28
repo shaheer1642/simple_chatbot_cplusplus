@@ -1,4 +1,6 @@
-# About
+# C++ Chat Bot
+
+## About
 The is a C++ based project that uses some basic language concepts to deliver a simple chat bot program for general question/answers.
 Some main concepts used in the program are listed below:
 - Arrays
@@ -13,13 +15,13 @@ Some main concepts used in the program are listed below:
 - Pointers
 - Regular expressions: The regex library functions are used to search and replace substrings
 
-# Technologies
+## Technologies
 - C++
 
-# Screenshots
+## Screenshots
 ![image](https://github.com/shaheer1642/simple_chatbot_cplusplus/assets/90972275/d9a87603-60e3-4132-a8e1-4461cb07bd6c)
 
-# Running the code
+## Running the code
 - Open main.cpp in dev C++
 - Navigate to Tools > Compiler Options > General
 -  Check the box "Add the following commands when calling the compiler"
